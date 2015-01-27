@@ -11,10 +11,9 @@ Based off of: https://github.com/emcconville/Behat.tmbundle.
 Run the following command:
 
 ```sh
-apm install behat-friatom
+apm install behat-fr-atom
 ```
 
 After it is complete, you will need to reopen Atom.
 
 ![screenshot](http://i.imgur.com/vSRxOtr.png)
-

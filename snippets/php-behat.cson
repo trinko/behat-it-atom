@@ -3,11 +3,11 @@
     'prefix': 'Ex'
     'body': 'Examples:\n  | $1 |'
   'Feature':
-    'prefix': 'Fe'
-    'body': 'Feature: '
+    'prefix': 'Fo'
+    'body': 'Fonctionnalité: '
   'Scenario Outline':
-    'prefix': 'Scenario: '
-    'body': 'Scenario Outline: '
+    'prefix': 'Scs'
+    'body': 'Plan de scénario: '
   'Scenario':
     'prefix': 'Sc'
-    'body': 'Scenario: '
+    'body': 'Scénario: '
