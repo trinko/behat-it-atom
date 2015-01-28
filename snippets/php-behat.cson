@@ -15,16 +15,16 @@
     'prefix': 'co'
     'body': 'Contexte:\n\t'
   'Étant donné':
-    'prefix': 'Éta'
+    'prefix': 'Eta'
     'body': 'Étant donné '
   'En tant que':
     'prefix': 'Ent'
     'body': 'En tant que '
   'J\'ai besoin':
-    'prefix': 'Jai'
+    'prefix': 'jai'
     'body': 'J\'ai besoin '
   'Afin de':
-    'prefix': 'Afi'
+    'prefix': 'afi'
     'body': 'Afin de '
   'Je dois':
     'prefix': 'jed'

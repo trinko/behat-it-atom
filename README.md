@@ -16,4 +16,4 @@ apm install behat-fr-atom
 
 After it is complete, you will need to reopen Atom.
 
-![screenshot](http://i.imgur.com/vSRxOtr.png)
+![screenshot](http://i.imgur.com/5devdKF.png)
