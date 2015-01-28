@@ -1,6 +1,6 @@
 {
   "name": "behat-fr-atom",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Adds Behat FR support to Atom.",
   "repository": "https://github.com/atalargo/behat-fr-atom",
   "license": "MIT",
