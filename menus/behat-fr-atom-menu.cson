@@ -1,0 +1,17 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      {
+        'label': 'Behat FR'
+        'submenu': [
+          {
+            'label': 'Check syntax of current file'
+            'command': 'behat-fr-atom:check-syntax'
+          }
+        ]
+      }
+    ]
+  }
+
+]

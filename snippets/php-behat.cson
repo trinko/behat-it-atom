@@ -1,13 +1,31 @@
 '.feature':
   'Examples':
     'prefix': 'Ex'
-    'body': 'Examples:\n  | $1 |'
+    'body': 'Exemples:\n  | $1 |'
   'Feature':
     'prefix': 'Fo'
     'body': 'Fonctionnalité: '
   'Scenario Outline':
     'prefix': 'Scs'
-    'body': 'Plan de scénario: '
+    'body': 'Plan du scénario: '
   'Scenario':
     'prefix': 'Sc'
     'body': 'Scénario: '
+  'Contexte':
+    'prefix': 'co'
+    'body': 'Contexte:\n\t'
+  'Étant donné':
+    'prefix': 'Éta'
+    'body': 'Étant donné '
+  'En tant que':
+    'prefix': 'Ent'
+    'body': 'En tant que '
+  'J\'ai besoin':
+    'prefix': 'Jai'
+    'body': 'J\'ai besoin '
+  'Afin de':
+    'prefix': 'Afi'
+    'body': 'Afin de '
+  'Je dois':
+    'prefix': 'jed'
+    'body': 'Je dois '
