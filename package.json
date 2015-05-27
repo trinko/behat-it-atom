@@ -9,7 +9,7 @@
   },
   "dependencies": {},
   "main": "./lib/behat-fr-atom",
-  "activationCommands": [
-    "behat-fr-atom:check_syntax"
-  ]
+  "activationCommands": {
+     "atom-text-editor": "behat-fr-atom:check_syntax"
+  }
 }
