@@ -1,29 +1,29 @@
 # demo.feature
-# language: fr
+# language: it
 
-Fonctionnalité: Avoir une coloration syntaxique pour la langue française dans les fichiers feature
-    Afin d'avoir une lisibilié accrue des fichiers features
-    En tant que rédacteur de fichier de tests fonctionnels
-    Je dois différencié les différents types de mot clés du language Gherkin en français par différentes couleurs
+Funzionalità: Avere una sintassi colorata per la lingua italiana nei file feature
+  Per avere una migliore leggibilità dei file feature
+  Nell'ambito della scrittura dei file per i test funzionali
+  Bisogna differenziare le parole chiave del linguaggio Gherkin in Italiano con l'utilizzo dei colori
+  
+  Contesto:
+    Data una finestra di editing di Atom
+    E un redattore di specifiche
 
-    Contexte:
-        Étant donné que je suis dans une fenêtre d'étition d'Atom
-        Et que je suis un rédacteur de specs
-
-    Scénario:
-        Étant donné que je viens de créer un nouveau fichier feature
-        Quand je commence à écrire mes specs en français
-        Alors je dois voir la coloration des mots-clés Gherkin en français variée en fonction de leur nature
-        Mais pas quand jes les écrirs dans le corps d'une description d'une Fonctionnalité: ou d'un Scénario
-
-    Plan du scénario: Scénario
-        Étant donné que je vais utiliser le mot-clé <keyword>
-        Quand j'écrirai mes features du type <original_keyword>
-        Alors je dois le voir apparaître avec la couleur défini dans le style par le code '<color_code>'
-
-        Exemples:
-          | keyword          | original_keyword | color_code                   |
-          | Fonctionnalité   | Feature          | entity.name.function.feature |
-          | Contexte         | Background       | entity.name.function.feature |
-          | Étant donné      | Given            | support.constant.feature     |
-          | Afin d[e\']      | In order to      | source.variable.feature      |
+  Scenario:
+    Data la necessità di creare un nuovo file di feture
+    Quando inizia a scrivere le specifiche in italiano
+    Allora si vede la colorazione delle parole chiave del linguaggio Gherkin in Italiano in funzione del loro significato
+    Ma non quando si scrivono nel corpo di una descrizione di una Funzionalità: o di uno Scenario:
+    
+  Schema di scenario: Scenario
+    Dato l'utilizzo della parola chiava <parola>
+    Quando si scriveranno le funzionalità del tipo <parola_originaria>
+    Allora le si vedrà apparire del colore definito nello stile '<codice_colore>'
+        
+  Esempi:
+    | parola          | parola_originale | codice_colore                |
+    | Funzionalità    | Feature          | entity.name.function.feature |
+    | Contesto        | Background       | entity.name.function.feature |
+    | Dato            | Given            | support.constant.feature     |
+    | Per             | In order to      | source.variable.feature      |
