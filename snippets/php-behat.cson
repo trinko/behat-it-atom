@@ -1,31 +1,16 @@
 '.feature':
   'Examples':
-    'prefix': 'Ex'
-    'body': 'Exemples:\n  | $1 |'
+    'prefix': 'Es'
+    'body': 'Esempi:\n  | $1 |'
   'Feature':
-    'prefix': 'Fo'
-    'body': 'Fonctionnalité: '
+    'prefix': 'Fu'
+    'body': 'Funzionalità: \n\tPer \n\tCome|Nell\'ambito \n\tBisogna '
   'Scenario Outline':
-    'prefix': 'Scs'
-    'body': 'Plan du scénario: '
+    'prefix': 'Sch'
+    'body': 'Schema dello scenario: \n\tDato \n\tQuando \n\tAllora '
   'Scenario':
     'prefix': 'Sc'
-    'body': 'Scénario: '
+    'body': 'Scenario: \n\tDato \n\tQuando \n\tAllora '
   'Contexte':
     'prefix': 'co'
-    'body': 'Contexte:\n\t'
-  'Étant donné':
-    'prefix': 'Eta'
-    'body': 'Étant donné '
-  'En tant que':
-    'prefix': 'Ent'
-    'body': 'En tant que '
-  'J\'ai besoin':
-    'prefix': 'jai'
-    'body': 'J\'ai besoin '
-  'Afin de':
-    'prefix': 'afi'
-    'body': 'Afin de '
-  'Je dois':
-    'prefix': 'jed'
-    'body': 'Je dois '
+    'body': 'Contesto:\n\tDato \n\tE '
