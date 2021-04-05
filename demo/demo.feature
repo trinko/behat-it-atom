@@ -16,9 +16,9 @@ Funzionalità: Avere una sintassi colorata per la lingua italiana nei file featu
     Allora si vede la colorazione delle parole chiave del linguaggio Gherkin in Italiano in funzione del loro significato
     Ma non quando si scrivono nel corpo di una descrizione di una Funzionalità: o di uno Scenario:
     
-  Schema di scenario: Scenario
+  Schema dello scenario: Scenario
     Dato l'utilizzo della parola chiava <parola>
-    Quando si scriveranno le funzionalità del tipo <parola_originaria>
+    Quando si scriveranno le funzionalità del tipo <parola_originale>
     Allora le si vedrà apparire del colore definito nello stile '<codice_colore>'
         
   Esempi:
