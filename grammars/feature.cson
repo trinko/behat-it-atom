@@ -9,7 +9,7 @@
         'name': 'storage.type.class.feature'
       '4':
         'name': 'entity.name.function.feature'
-    'match': '^\\s*(Funzionalità|(Schema\\s+dello\\s+scenario)|Scenario|Contesto)\\b\\s*:\\s*)(.*)$'
+    'match': '^\\s*((Funzionalità|(Schema\\s+dello\\s+scenario)|Scenario|Contesto)\\b\\s*:\\s*)(.*)$'
   }
   {
     'match': '^\\s*Esempi\\s*:\\s*$'
