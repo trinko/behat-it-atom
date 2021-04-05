@@ -9,10 +9,10 @@
         'name': 'storage.type.class.feature'
       '4':
         'name': 'entity.name.function.feature'
-    'match': '^\\s*((Fonctionnalité|(Plan\\sdu\\s[sS]|S)cénario\\s?(Template)?|Contexte|Ability|Business Need)\\b\\s*:\\s*)(.*)$'
+    'match': '^\\s*(Funzionalità|(Schema\\s+dello\\s+scenario)|Scenario|Contesto)\\b\\s*:\\s*)(.*)$'
   }
   {
-    'match': '^\\s*(Exemple|Scénario)s?\\s*:\\s*$'
+    'match': '^\\s*Esempi\\s*:\\s*$'
     'name': 'storage.type.var.feature'
   }
   {
@@ -20,11 +20,11 @@
     'name': 'markup.bold.feature'
   }
   {
-    'match': '^\\s*([ÉE]tant\\sdonné(e|s|es)?|Et|Quand|Lorsqu[e\']|Alors|Mais)\\b'
+    'match': '^\\s*(Dat[oiae]|Quando|Allora|E|Ma)\\b'
     'name': 'support.constant.feature'
   }
   {
-    'match': '^\\s*(En\\stant\\squ.|Je\\sdois|Afin\\sd.|J\'ai\\sbesoin)\\b'
+    'match': '^\\s*(Per|Come|Nell\'ambito|Bisogna)\\b'
     'name': 'source.variable.feature'
   }
   {
