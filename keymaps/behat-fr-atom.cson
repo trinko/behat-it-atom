@@ -1,2 +1,0 @@
-'atom-text-editor':
-  'ctrl-cmd-s': 'behat-fr-atom:launch-test'
