@@ -9,8 +9,11 @@
     'prefix': 'Sch'
     'body': 'Schema dello scenario: \n\tDato \n\tQuando \n\tAllora '
   'Scenario':
-    'prefix': 'Sc'
+    'prefix': 'sc'
     'body': 'Scenario: \n\tDato \n\tQuando \n\tAllora '
   'Contexte':
-    'prefix': 'co'
+    'prefix': 'Co'
     'body': 'Contesto:\n\tDato \n\tE '
+  'Language':
+    'prefix': 'La'
+    'body': '# Language: it\n\n'
