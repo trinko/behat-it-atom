@@ -3,11 +3,11 @@
     'label': 'Packages'
     'submenu': [
       {
-        'label': 'Behat FR'
+        'label': 'Behat IT'
         'submenu': [
           {
             'label': 'Check syntax of current file'
-            'command': 'behat-fr-atom:check-syntax'
+            'command': 'behat-it-atom:check-syntax'
           }
         ]
       }
