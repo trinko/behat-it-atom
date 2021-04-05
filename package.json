@@ -1,15 +1,15 @@
 {
-  "name": "behat-fr-atom",
-  "version": "0.2.1",
-  "description": "Adds Behat FR support to Atom.",
-  "repository": "https://github.com/atalargo/behat-fr-atom",
+  "name": "behat-it-atom",
+  "version": "1.0.0",
+  "description": "Adds Behat IT support to Atom.",
+  "repository": "https://github.com/trinko/behat-it-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {},
-  "main": "./lib/behat-fr-atom",
+  "main": "./lib/behat-it-atom",
   "activationCommands": {
-    "atom-text-editor": "behat-fr-atom:check_syntax"
+    "atom-text-editor": "behat-it-atom:check_syntax"
   }
 }
