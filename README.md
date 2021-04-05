@@ -11,7 +11,7 @@ Based off of: https://github.com/emcconville/Behat.tmbundle.
 Run the following command:
 
 ```sh
-apm install behat-it-atom
+apm install trinko/behat-it-atom
 ```
 
 After it is complete, you will need to reopen Atom.
